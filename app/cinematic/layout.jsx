@@ -22,7 +22,7 @@ const jetbrains = JetBrains_Mono({
   display: "swap",
 });
 
-const SITE_URL = "https://ojix.com";
+const SITE_URL = "https://ojix.in";
 const PAGE_PATH = "/cinematic";
 
 export const metadata = {
@@ -135,7 +135,7 @@ export default function CinematicLayout({ children }) {
       <a href="#main" className="skip">Skip to content</a>
       <noscript>
         <div style={{ padding: 24, background: "#0A0A0E", color: "#F5F5F4", textAlign: "center", fontFamily: "system-ui, sans-serif" }}>
-          The OJIX cinematic site requires JavaScript. <a href="/" style={{ color: "#FF5C00" }}>Switch to the light site</a>.
+          The OJIX site requires JavaScript. Please enable JavaScript in your browser settings to view this page.
         </div>
       </noscript>
       <script

@@ -1,4 +1,4 @@
-const SITE_URL = "https://ojix.com";
+const SITE_URL = "https://ojix.in";
 
 export default function sitemap() {
   const now = new Date();
@@ -13,7 +13,7 @@ export default function sitemap() {
       url: `${SITE_URL}/cinematic`,
       lastModified: now,
       changeFrequency: "monthly",
-      priority: 0.9,
+      priority: 1.0,
     },
     {
       url: `${SITE_URL}/privacy`,

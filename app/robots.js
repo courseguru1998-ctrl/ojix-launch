@@ -1,4 +1,4 @@
-const SITE_URL = "https://ojix.com";
+const SITE_URL = "https://ojix.in";
 
 export default function robots() {
   return {

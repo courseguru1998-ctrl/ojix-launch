@@ -1,2 +1,5 @@
-import Experience from "@/components/Experience";
-export default function Home() { return <Experience />; }
+import { redirect } from "next/navigation";
+
+export default function Home() {
+  redirect("/cinematic");
+}

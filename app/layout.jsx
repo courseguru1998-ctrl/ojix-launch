@@ -29,12 +29,6 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body style={{ fontFamily: "'Roboto', system-ui, -apple-system, sans-serif" }}>
-        <a href="#main" className="skip">Skip to content</a>
-        <noscript>
-          <div style={{ padding: 24, background: "#0F172A", color: "#F8FAFC", textAlign: "center", fontFamily: "system-ui, sans-serif" }}>
-            This site uses JavaScript for animations. The B2B content is still readable — please continue browsing.
-          </div>
-        </noscript>
         {children}
       </body>
     </html>
